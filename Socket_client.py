@@ -26,6 +26,8 @@ def send(msg):
     client.send(send_length)
     client.send(message)
     print(client.recv(2048))
+
+    
 while True:
     Message_to_send = input()
     send(Message_to_send)
